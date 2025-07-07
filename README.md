@@ -151,6 +151,36 @@ Se aplicaron los siguientes pasos antes del análisis:
 
 ---
 
+##  Diseño del Código y Automatización Inteligente
+
+El archivo `Codigo_principal.py` ha sido desarrollado bajo una arquitectura modular y reutilizable, utilizando funciones importadas desde el módulo `Funciones.py`. Esta estructura permite:
+
+1_ **Evitar escribir líneas repetitivas** gracias a funciones generales reutilizables.
+2_ **Ejecutar análisis completos rápidamente**, con solo ingresar los parámetros que solicita cada función.
+3_ **Automatizar el flujo de análisis exploratorio y modelado**, con una sola ejecución.
+4_ **Sugerencias estadísticas inteligentes**: el programa evalúa la distribución de los datos e indica al usuario **qué tipo de métodos debe aplicar** (paramétricos o no paramétricos), en base a:
+4.1_ Resultados del test de normalidad de Shapiro-Wilk
+4.2_ Simetría de la distribución (sesgo)
+4.3_ Varianzas entre grupos (Levene)
+5_ **Flexibilidad total**: puede aplicarse en contextos educativos, comerciales, financieros, de salud, etc., ya que las funciones son independientes del dominio.
+
+###  ¿Qué hace el programa por ti?
+
+Con solo cargar tu archivo Excel y ejecutar `Codigo_principal.py`, el sistema:
+
+1_Muestra estadísticas descriptivas
+2_Agrupa y compara categorías
+3_Grafica la distribución de las variables
+4_Evalúa correlaciones y relaciones multivariadas
+5_Entrena modelos de regresión y clasificación
+6_Realiza pruebas estadísticas como:
+  6.1 Prueba de normalidad (Shapiro)
+  6.2 Comparación de medias (t-test: Student/Welch)
+  6.3 Análisis de varianza (ANOVA)
+7_Y **te indica qué tipo de análisis usar** según los resultados anteriores.
+
+> Está diseñado para **ahorrar tiempo, reducir errores humanos** y guiar al usuario en un análisis estadístico riguroso, incluso si no es experto.
+
 ##  Ejecución del Proyecto
 
 Sigue estos pasos para ejecutar el análisis:
