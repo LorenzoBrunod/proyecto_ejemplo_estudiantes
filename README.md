@@ -1,4 +1,6 @@
-# Análisis Rendimiento Estudiantil con Python
+# Ejemplo de Análisis Exploratorio de Datos 
+
+## Análisis Rendimiento Estudiantil con Python
 
 ## Introducción
 
@@ -69,7 +71,7 @@ Se aplicaron los siguientes pasos antes del análisis:
 ---
 
 ### 4. Distribución por Sexo con Porcentaje  
-![Distribución sexo-premios](Graficos/Relación%20sexo-premiados.png)
+![Distribución sexo-premios](Graficos/Gráfico%20apilado%20con%20porcentaje%20por%20sexo%20y%20premios.png)
 **Interpretación**: La cantidad de premiados es proporcional entre hombres y mujeres, lo cual sugiere que no existen diferencias significativas de rendimiento por género.
 
 ---
@@ -87,7 +89,7 @@ Se aplicaron los siguientes pasos antes del análisis:
 ---
 
 ### 7. Premiados por Curso  
-![Premiados por curso](graficos/premiados_por_curso.png)  
+![Premiados por curso](Graficos/Premiados%20por%20curso%20%28categorías%29.png)
 **Interpretación**: Inglés y Lenguaje tienen la mayor cantidad de premiados. Esto está alineado con los promedios por curso y puede reflejar políticas internas o enfoque pedagógico.
 
 ---
@@ -116,7 +118,7 @@ Se aplicaron los siguientes pasos antes del análisis:
 
 ---
 
-## 📊 Análisis Estadístico Aplicado
+##  Análisis Estadístico Aplicado
 
 - **t-test**: se compararon notas entre sexos → no hay diferencias estadísticamente significativas.
 - **ANOVA**: comparó notas entre cursos → se encontraron diferencias significativas, justificando el análisis por materia.
@@ -127,7 +129,7 @@ Se aplicaron los siguientes pasos antes del análisis:
 
 ---
 
-## ✅ Conclusiones
+# Conclusiones
 
 - La nota tiene distribución normal, lo que habilita métodos estadísticos clásicos.
 - La asistencia es el principal predictor del rendimiento.
@@ -149,31 +151,21 @@ Se aplicaron los siguientes pasos antes del análisis:
 
 ---
 
-## 🚀 Ejecución del Proyecto
+##  Ejecución del Proyecto
+
+Sigue estos pasos para ejecutar el análisis:
 
 ```bash
 git clone https://github.com/tu_usuario/proyecto_rendimiento_estudiantil.git
 cd proyecto_rendimiento_estudiantil
-pip install -r requirements.txt
-python main.py
-```
+pip install pandas matplotlib seaborn scikit-learn scipy openpyxl
+python "Dia 1.py"
 
-- Asegúrate de tener el archivo `datos_estudiantes_proyecto.xlsx` en la raíz.
-- Las imágenes deben estar en la carpeta `graficos/` con los nombres correspondientes.
+## Mis datos
 
----
+Proyecto elaborado para un portafolio profesional a modo de ejemplo en ciencia de datos aplicada a educación.
 
-## 👤 Autor
+- 📬lorenzoschiappacase@gmail.com  
+- 📎https://www.linkedin.com/in/lorenzo-brunod-schiappacase-9a10191b9
 
-Proyecto elaborado para un portafolio profesional en ciencia de datos aplicada a educación.
 
-- 📧 tuemail@ejemplo.com  
-- 🔗 https://linkedin.com/in/tuusuario
-
----
-
-## 📌 Futuro del Proyecto
-
-- Agregar análisis temporal (por bimestre).
-- Crear dashboard interactivo con Streamlit.
-- Probar modelos más robustos (Random Forest, XGBoost).
