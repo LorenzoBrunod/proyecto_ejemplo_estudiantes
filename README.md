@@ -142,12 +142,13 @@ Se aplicaron los siguientes pasos antes del análisis:
 
 ##  Herramientas Usadas
 
-- Python 3.x  
-- pandas  
-- matplotlib  
-- seaborn  
-- scikit-learn  
-- scipy
+- **Python 3.x** – Lenguaje principal del desarrollo.
+- **pandas** – Manipulación, limpieza y análisis de datos tabulares.
+- **matplotlib** – Visualización básica de datos en gráficos.
+- **seaborn** – Visualización estadística avanzada y estilizada.
+- **scikit-learn** – Modelado predictivo, regresión, clasificación y métricas de evaluación.
+- **scipy** – Pruebas estadísticas como Shapiro-Wilk, Levene, t-test y ANOVA.
+- **openpyxl** – Lectura de archivos Excel (`.xlsx`).
 
 ---
 
