@@ -140,7 +140,7 @@ Se aplicaron los siguientes pasos antes del análisis:
 
 ---
 
-## 🛠 Herramientas Usadas
+##  Herramientas Usadas
 
 - Python 3.x  
 - pandas  
