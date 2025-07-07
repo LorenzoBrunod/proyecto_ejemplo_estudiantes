@@ -51,37 +51,37 @@ Se aplicaron los siguientes pasos antes del análisis:
 ## Visualizaciones y su Interpretación
 
 ### 1. Promedios por Curso  
-![Promedios por curso](graficos/promedios_por_curso.png)  
+![Promedios por curso](Graficos/Promedios%20por%20curso.png)
 **Interpretación**: Este gráfico muestra que los cursos de Inglés y Lenguaje tienen promedios superiores, mientras que Matemáticas presenta una media más baja. Esto puede indicar diferencias en dificultad o metodologías docentes.
 
 ---
 
 ### 2. Histograma de Notas  
-![Distribución de notas](graficos/histograma_notas.png)  
+![Distribución de notas](Graficos/Distribución%20de%20notas%20%28histograma%20con%20KDE%29.png)  
 **Interpretación**: La curva tiene forma aproximadamente normal, centrada entre 4.5 y 5.5. Esto respalda el uso de métodos estadísticos paramétricos como la regresión o ANOVA. No se observan sesgos extremos.
 
 ---
 
 ### 3. Distribución por Sexo  
-![Distribución por sexo](graficos/distribucion_sexo.png)  
+![Distribución por sexo](Graficos/Gráfico%20circular%20%28distribución%20por%20sexo%29.png)
 **Interpretación**: La proporción entre hombres y mujeres está balanceada, lo que permite realizar comparaciones por sexo sin riesgo de sesgo muestral.
 
 ---
 
 ### 4. Distribución por Sexo con Porcentaje  
-![Distribución sexo-premios](graficos/distribucion_sexo_premios.png)  
+![Distribución sexo-premios](Graficos/Relación%20sexo-premiados.png)
 **Interpretación**: La cantidad de premiados es proporcional entre hombres y mujeres, lo cual sugiere que no existen diferencias significativas de rendimiento por género.
 
 ---
 
 ### 5. Mapa de Correlación  
-![Mapa de correlación](graficos/correlacion_heatmap.png)  
+![Mapa de correlación](Graficos/Mapa%20de%20correlación%20%28heatmap%29.png) 
 **Interpretación**: Se observa una correlación positiva entre `nota` y `asistencia_%`, y una leve correlación con `ingreso_mensual`. Esto indica que una mayor asistencia está asociada con mejor rendimiento académico.
 
 ---
 
 ### 6. Pairplot de Variables  
-![Pairplot](graficos/pairplot_variables.png)  
+![Pairplot](Graficos/Matriz%20de%20dispersión%20%28pairplot%29.png)  
 **Interpretación**: Este gráfico muestra las relaciones cruzadas entre todas las variables numéricas. Destaca la ligera linealidad entre `nota` y `asistencia_%`. No se observan agrupamientos atípicos o no lineales.
 
 ---
@@ -93,25 +93,25 @@ Se aplicaron los siguientes pasos antes del análisis:
 ---
 
 ### 8. Premiados por Sexo  
-![Premiados por sexo](graficos/premiados_por_sexo.png)  
+![Premiados por sexo](Graficos/Relación%20sexo-premiados.png)
 **Interpretación**: La cantidad de premiados por género se mantiene pareja. Confirma que no hay un sesgo de género en la entrega de reconocimientos.
 
 ---
 
 ### 9. Violinplot de Notas por Sexo  
-![Violinplot notas por sexo](graficos/violinplot_notas_sexo.png)  
+![Violinplot notas por sexo](Graficos/Gráfico%20de%20violín%20%28distribución%20notas%20por%20sexo%29.png)  
 **Interpretación**: La distribución de notas es similar entre hombres y mujeres. Se valida que las medias son comparables. Este resultado es consistente con el t-test aplicado, que no encontró diferencias estadísticamente significativas.
 
 ---
 
 ### 10. Dispersión Asistencia vs Nota  
-![Dispersión asistencia-nota](graficos/dispersion_asistencia_nota.png)  
+![Dispersión asistencia-nota](Graficos/Gráfico%20de%20dispersión_asistencia%20vs%20nota.png) 
 **Interpretación**: Muestra que los estudiantes con mayor asistencia tienden a tener mejor rendimiento, aunque la relación no es estrictamente lineal. Sugiere que otros factores también influyen.
 
 ---
 
 ### 11. Árbol de Decisión (Regresión)  
-![Árbol de decisión](graficos/arbol_decision.png)  
+![Árbol de decisión](Graficos/Árbol%20de%20decisión%20para%20regresión.png)
 **Interpretación**: Modelo predictivo que permite estimar la nota basada en ingreso, asistencia y sexo. Los nodos del árbol explican qué combinaciones de variables conducen a un mejor o peor rendimiento. Es un modelo interpretable y útil para toma de decisiones pedagógicas.
 
 ---
